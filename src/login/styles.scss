@@ -1,0 +1,94 @@
+$bgcolor: #f8f0b3; 
+$bgchatbox: #eeedf7;
+$lightgreen: #67d565;
+$bgwhite: #fff;
+$font: sans-serif;
+$selectandnew: rgb(255,118,85);
+
+$cetron: rgba(124, 166, 24, 1);
+$darkgreen: rgba(92, 159, 16, 1);
+$french-puce: rgba(77, 30, 18, 1);
+$deep-spring-bud: rgba(78, 111, 47, 1);
+
+
+.loginLogo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    background-color: $darkgreen;
+    border-radius: 50%;
+    padding: 5px;
+    z-index: 1;
+    img{
+        width: 70px;
+    }
+}
+.loginBox{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: #fff;
+    box-shadow: 1px 1px #dfe5ec;
+    border-radius: 5px;
+    border-left: 1px solid #dfe5ec;
+    border-right: 1px solid #dfe5ec;
+    border-bottom: 1px solid #d2dbe3;
+    overflow: hidden;
+    padding: 20px;
+    padding-top: 40px;
+    margin-top: -45px;
+    .email-login{
+        margin: 5px 0 5px 0;
+        width: 300px;
+    }
+    .password-login{
+        margin: 5px 0 5px 0;
+        width: 300px;
+    }
+    .signInText{
+        flex-grow: 1;
+        p{
+            font-family: $font;
+            font-size: 1em;
+        }
+    }
+    .signInButton{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        flex-grow: 1;
+        .button-login{
+            background-color: $darkgreen;
+        }
+        .signInLink{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            background-color: $darkgreen;
+            border-radius: 5px;
+            width: 100px;
+            height: 40px;
+
+        }
+        .forgotText{
+            padding: 5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            font-size: 10pt;
+        }
+    }
+    .progress-bar{
+        margin-left: 135px;
+    }
+}

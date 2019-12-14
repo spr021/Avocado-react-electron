@@ -1,0 +1,25 @@
+$bgcolor: #f8f0b3; 
+$bgchatbox: #eeedf7;
+$lightgreen: #67d565;
+$bgwhite: #fff;
+$font: sans-serif;
+$selectandnew: rgb(255,118,85);
+
+$cetron: rgba(124, 166, 24, 1);
+$darkgreen: rgba(92, 159, 16, 1);
+$french-puce: rgba(77, 30, 18, 1);
+$deep-spring-bud: rgba(78, 111, 47, 1);
+
+.select-settings{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    
+    .dark-mod{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+}
